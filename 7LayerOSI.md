@@ -1,5 +1,4 @@
 # 7 Layer OSI
-![Gambar 7 Layer](https://www.google.com/url?sa=i&url=https%3A%2F%2Fit.telkomuniversity.ac.id%2Finilah-penjelasan-7-lapisan-osi-layers%2F&psig=AOvVaw0mNhFygKXYW_Q_8EBNDpYp&ust=1692969151238000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJCYytav9YADFQAAAAAdAAAAABAR)
 Protokol komunikasi sering dipecah menjadi beberapa lapisan yang berbeda, di mana setiap lapisan memiliki tugas khusus dalam proses komunikasi. Model Referensi OSI adalah salah satu model yang menggambarkan lapisan-lapisan ini. Berikut adalah deskripsi tiap lapisan pada Model Referensi OSI beserta tugas-tugas utamanya:
 
 1. **Lapisan Fisik (Physical Layer)**:
