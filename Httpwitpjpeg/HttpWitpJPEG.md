@@ -11,22 +11,22 @@ Pada file http_witp_jpeg.cap Response yang menampilkan gambar terletak pada pack
 5. Kemudian klik 1 kali dan cari File Data
 6. Setelah itu klik kanan pada baris yang menunjukkan File Data dan pilih Show Packet Bytes
 
-**Isi Packet 61:**
+**Isi Packet 61:(Request Terletak Pada Packet 48)**
 
 ![](../asset/Gambar1.PNG)
 
-**Isi Packet 72:**
+**Isi Packet 72:(Request Terletak Pada Packet 50)**
 
 ![](../asset/Gambar2.PNG)
 
-**Isi Packet 259:**
+**Isi Packet 259:(Request Terletak Pada Packet 240)**
 
 ![](../asset/Gambar3.PNG)
 
-**Isi Packet 269:**
+**Isi Packet 269:(Request Terletak Pada Packet 241)**
 
 ![](../asset/Gambar4.PNG)
 
-**Isi Packet 479:**
+**Isi Packet 479:(Request Terletak Pada Packet 278)**
 
 ![](../asset/Gambar5.PNG)
