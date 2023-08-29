@@ -1,10 +1,11 @@
-# Statistik HTTP
+![](../asset/HttpPacket.PNG)
+# HTTP Packet Counter
 
 HTTP packets terletak pada packet:4,18,27,38
 
-**Pada packet 4** merupakan packet yang melakukan request berupa GET/download.html HTTP/1.1 dan akan di response **Pada packet 38**. Tujuan packet ini bertujuan untuk mengakses http://www.ethereal.com/download.html
+**Pada packet 4** merupakan packet yang melakukan request berupa GET/download.html HTTP/1.1 dan akan di response **Pada packet 38**. Packet ini bertujuan untuk mengakses http://www.ethereal.com/download.html
 
-**Pada packet 18** merupakan packet yang melakukan request berupa GET http://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-2309191948673629&random=1084443430285&lmt=1082467020&format=468x60_as&output=html&url=http%3A%2F%2Fwww.ethereal.com%2Fdownload.html&color_bg=FFFFF dan akan di response oleh server **Pada packet 27**. Tujuan packet ini bertujuan untuk mengakses http://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-2309191948673629&random=1084443430285&lmt=1082467020&format=468x60_as&output=html&url=http%3A%2F%2Fwww.ethereal.com%2Fdownload.html&color_bg=FFFFF.
+**Pada packet 18** merupakan packet yang melakukan request berupa GET http://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-2309191948673629&random=1084443430285&lmt=1082467020&format=468x60_as&output=html&url=http%3A%2F%2Fwww.ethereal.com%2Fdownload.html&color_bg=FFFFF dan akan di response oleh server **Pada packet 27**. Packet ini bertujuan untuk mengakses http://pagead2.googlesyndication.com/pagead/ads?client=ca-pub-2309191948673629&random=1084443430285&lmt=1082467020&format=468x60_as&output=html&url=http%3A%2F%2Fwww.ethereal.com%2Fdownload.html&color_bg=FFFFF.
 
 # Jenis-jenis respons HTTP:
 
