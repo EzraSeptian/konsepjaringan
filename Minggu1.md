@@ -1,3 +1,4 @@
+# Analisa http.cap, telnet-cooked.cap, dns.cap dan Penjelasan tentang Ping & Traceroute
 1. `http.cap`: Berkas ini berisi data paket jaringan yang terkait dengan protokol HTTP (Hypertext Transfer Protocol). HTTP adalah protokol yang digunakan untuk mengirimkan permintaan dan menerima respons antara klien (biasanya web browser) dan server web.
 
 2. `telnet-cooked.cap`: Telnet adalah protokol jaringan yang digunakan untuk mengakses jarak jauh ke perangkat yang menjalankan layanan konsol atau shell. File ini mungkin berisi data paket jaringan yang terkait dengan sesi Telnet.
