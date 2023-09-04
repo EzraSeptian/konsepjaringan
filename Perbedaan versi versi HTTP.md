@@ -1,3 +1,5 @@
+![](../asset/Comparison-of-HTTP-versions.jpg)
+
 # HTTP 0.9:
 
 Tidak ada header HTTP. Hanya ada perintah "GET" untuk mengambil dokumen HTML.
