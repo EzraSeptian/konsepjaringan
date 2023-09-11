@@ -74,3 +74,9 @@
 ### Hubungan dengan Socket Programming:
 
 Kode-kode ini memanfaatkan fungsi-fungsi dasar dari pustaka socket. Mereka menciptakan, mengikat, mendengarkan, dan menerima koneksi pada sisi server. Pada sisi klien, mereka menciptakan soket, menghubungkan ke server, dan melakukan operasi baca/tulis untuk berkomunikasi. Dengan cara ini, mereka membentuk dasar dari komunikasi jaringan menggunakan protokol TCP/IP melalui socket. Masing-masing contoh menunjukkan berbagai aspek socket programming, dari penanganan koneksi tunggal hingga multi-threading untuk mendukung banyak koneksi secara bersamaan.
+
+### Full close atau Half close
+
+Kaitannya dengan half close atau full close, tidak ada implementasi half-close di dalam program-program ini. Half-close adalah teknik di mana salah satu ujung (client atau server) menutup koneksi hanya untuk mengirim data, tetapi tetap bisa menerima data. Ini berguna dalam situasi di mana satu pihak ingin menghentikan pengiriman data tetapi masih ingin menerima data yang dikirim oleh pihak lain.
+
+Untuk implementasi half-close, Anda perlu mengatur kepala koneksi (connection header) atau pesan khusus antara client dan server untuk mengidentifikasi bahwa satu pihak ingin melakukan half-close. Kemudian, Anda harus mengatur kode untuk memproses kondisi ini dan memungkinkan satu pihak untuk menerima data sementara yang lain hanya mengirim data. Itu adalah implementasi yang lebih canggih yang mungkin memerlukan perubahan yang signifikan pada kode di atas.
