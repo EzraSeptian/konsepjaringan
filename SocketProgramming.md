@@ -204,3 +204,32 @@ Kode-kode ini memanfaatkan fungsi-fungsi dasar dari pustaka socket. Mereka menci
 Kaitannya dengan half close atau full close, tidak ada implementasi half-close di dalam program-program ini. Half-close adalah teknik di mana salah satu ujung (client atau server) menutup koneksi hanya untuk mengirim data, tetapi tetap bisa menerima data. Ini berguna dalam situasi di mana satu pihak ingin menghentikan pengiriman data tetapi masih ingin menerima data yang dikirim oleh pihak lain.
 
 Untuk implementasi half-close, Anda perlu mengatur kepala koneksi (connection header) atau pesan khusus antara client dan server untuk mengidentifikasi bahwa satu pihak ingin melakukan half-close. Kemudian, Anda harus mengatur kode untuk memproses kondisi ini dan memungkinkan satu pihak untuk menerima data sementara yang lain hanya mengirim data. Itu adalah implementasi yang lebih canggih yang mungkin memerlukan perubahan yang signifikan pada kode di atas.
+
+
+## Percobaan
+
+Dalam percobaan ini saya mencoba untuk mengirim pesan string 'a' dengan panjang 4 dan 5. Pesan tersebut diterima server lalu dikirimkan lagi ke client dengan sukses.
+
+<img src="asset/socket.png">
+
+## Weireshark Analisis
+
+Diabawah ini adalah perncoba mengirim pesan sebanyak 5000 karakter dari client ke server.
+
+<img src="asset/terminaluntilN.png">
+
+<img src="asset/serverUntilN.png">
+
+Satu request dalam dua segmen TCP terjadi karena data yang ingin dikirimkan oleh pengirim (host sumber) melebihi ukuran maksimum yang dapat diakomodasi dalam satu segmen TCP atau Maximum Segment Size (MSS). Segmen TCP adalah unit data dalam protokol TCP, dan ukurannya terbatas oleh beberapa faktor, termasuk Maximum Segment Size yang ditentukan selama penegosiasian koneksi TCP dan ukuran jendela (window size) yang tersedia di kedua ujung koneksi.
+
+Berikut adalah beberapa alasan mengapa request dapat dibagi menjadi dua segmen TCP:
+
+1. **MSS Terbatas:** Maximum Segment Size (MSS) adalah ukuran maksimum data yang dapat dikirim dalam satu segmen TCP. Nilai MSS ini dapat bervariasi tergantung pada implementasi dan konfigurasi TCP. Jika ukuran data yang ingin dikirim melebihi nilai MSS, maka data harus dibagi menjadi beberapa segmen yang lebih kecil.
+   
+2. **Penggunaan PSH:** PSH (Push) adalah salah satu flag dalam header TCP yang mengindikasikan bahwa data perlu segera disampaikan ke aplikasi penerima. Jika aplikasi pengirim menetapkan flag PSH, maka segmen akan dikirim secepat mungkin. Ini bisa menyebabkan pengiriman lebih cepat dari segmen pertama yang berisi data yang telah di-push, dan segmen kedua untuk data tambahan.
+   
+3. **Optimasi dan Pengiriman Efisien:** Terkadang, pembagian data menjadi segmen yang lebih kecil dapat memungkinkan pengiriman yang lebih efisien. Segmen yang lebih kecil dapat meminimalkan overhead dalam jaringan dan memungkinkan pengiriman data secepat mungkin jika ada kebutuhan mendesak untuk menerima data oleh penerima.
+   
+4. **Ukuran Jendela (Window Size):** Ukuran jendela (window size) TCP diatur oleh kedua ujung koneksi. Jika ukuran jendela kecil, maka penerima akan memberi tahu pengirim untuk mengurangi laju pengiriman data. Dalam situasi ini, pengirim dapat membagi data menjadi segmen yang lebih kecil agar sesuai dengan ukuran jendela yang tersedia.
+
+Dalam kasus ini, request TCP dibagi menjadi dua segmen karena beberapa faktor di atas yang mengharuskan pembagian data menjadi lebih kecil agar sesuai dengan batasan-batasan yang ada dalam protokol TCP dan konfigurasi jaringan.
