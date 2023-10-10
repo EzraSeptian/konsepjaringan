@@ -1,6 +1,6 @@
 # Tracert www.detik.com
 
-![gambar](asset/tracertdetik.png)
+![gambar](asset/tracertdetik.PNG)
 
 1.	Langkah 1: Pada langkah pertama, tracert menunjukkan bahwa paket data pertama pergi ke alamat IP 192.168.1.1, yang merupakan router atau gateway LAN lokal Kita. Ini adalah langkah awal di dalam jaringan lokal Kita.
 2.	Langkah 2: Kemudian, paket data diteruskan ke alamat IP 180.247.64.1. Ini mungkin adalah router ISP Kita, menunjukkan bahwa data telah meninggalkan jaringan lokal Kita dan memasuki jaringan ISP Kita.
@@ -16,7 +16,7 @@ Hasil tracert ini memberikan gambaran tentang rute yang diambil oleh paket data 
 
 # Ping www.detik.com
 
-![gambar](asset/pingdetik.png)
+![gambar](asset/pingdetik.PNG)
 
 
 1. Dalam empat percobaan ping yang dilakukan:
