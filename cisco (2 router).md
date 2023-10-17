@@ -36,3 +36,26 @@ Switch 2:
   - PC4:
     - IP Address: 192.168.2.20
     - Subnet Mask: 255.255.255.0
+## Penjelasan
+Setiap perangkat dalam jaringan memiliki alamat IP yang unik dan subnet mask yang sesuai. PC dalam jaringan yang sama (misalnya, PC1 dan PC2 di Switch 1) memiliki alamat IP dalam jaringan yang sama dengan subnet mask yang benar, sehingga mereka dapat berkomunikasi langsung satu sama lain tanpa perlu melibatkan router.
+
+Router di sini berfungsi sebagai gateway untuk menghubungkan dua jaringan yang berbeda. Router 1 menghubungkan Jaringan A (192.168.1.0/24) dan Jaringan B (10.0.1.0/24), sedangkan Router 2 menghubungkan Jaringan A (192.168.2.0/24) dan Jaringan B (10.0.1.0/24).
+
+Ketika PC ingin mengirim ping ke PC di jaringan yang berbeda, mereka akan mengirim paket ke gateway (router) mereka, yaitu Router 1 atau Router 2. Router akan memeriksa tabel rute dan meneruskan paket ke tujuan yang sesuai.
+
+Dengan konfigurasi IP yang benar dan tabel rute yang sesuai di router, PC dapat mengirim ping satu sama lain melalui router dan antarmuka jaringan yang sesuai, sehingga memungkinkan komunikasi antar-jaringan.
+
+## Hasil
+PC1 ke PC2
+![gambar](asset/pc1-pc2.PNG)
+PC1 ke PC3
+![gambar](asset/pc1-pc3.PNG)
+PC1 ke PC4
+![gambar](asset/pc1-pc4.PNG)
+PC2 ke PC3
+![gambar](asset/pc2-pc3.PNG)
+PC2 ke PC4
+![gambar](asset/pc2-pc4.PNG)
+PC3 ke PC4
+![gambar](asset/pc3-pc4.PNG)
+
