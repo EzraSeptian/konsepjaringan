@@ -47,15 +47,15 @@ Dengan konfigurasi IP yang benar dan tabel rute yang sesuai di router, PC dapat 
 
 ## Hasil
 PC1 ke PC2
-![gambar](asset/pc1-pc2.PNG)
+![gambar](asset/pc1-pc2.png)
 PC1 ke PC3
-![gambar](asset/pc1-pc3.PNG)
+![gambar](asset/pc1-pc3.png)
 PC1 ke PC4
-![gambar](asset/pc1-pc4.PNG)
+![gambar](asset/pc1-pc4.png)
 PC2 ke PC3
-![gambar](asset/pc2-pc3.PNG)
+![gambar](asset/pc2-pc3.png)
 PC2 ke PC4
-![gambar](asset/pc2-pc4.PNG)
+![gambar](asset/pc2-pc4.png)
 PC3 ke PC4
-![gambar](asset/pc3-pc4.PNG)
+![gambar](asset/pc3-pc4.png)
 
