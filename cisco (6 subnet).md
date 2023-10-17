@@ -1,6 +1,21 @@
 # Cisco 6 Subnet 1 Router 6 Pc
 ![gambar](asset/cisco2.png)
 
+
+Sebelum kita melakukan configurasi, kita tentukan dulu router yang akan kita gunakan yaitu Router PT karena router tersebut dapat di custom, setelah Router terbuat lakukan hal hal berikut:
+
+1. Klik router dan akan muncul tampilan seperti ini:
+   
+   ![gambar](asset/physicalrouter.PNG)
+
+2. Setelah itu klik tombol seperti gambar untuk mematikan router:
+
+   ![gambar](asset/shutdown.PNG)
+
+3. Kemudian drag and drop PT-ROUTER-NM-1CFE ke dalam slot Ethernet
+
+   ![gambar](asset/slotEthernet.PNG)
+
 **Configurasi:**
 
 
@@ -109,3 +124,86 @@ Subnet 6:
 
 - IP address: 12.192.0.0 sampai 12.223.255.254
 - IP broadcast: 12.223.255.255
+
+
+
+## Uji Ping:
+
+PC 1 ke PC 2 
+
+![gambar](asset/pc1kepc2.PNG)
+
+PC 1 ke PC 3 
+
+![gambar](asset/pc1kepc3.PNG)
+
+
+PC 1 ke PC 4 
+
+![gambar](asset/pc1kepc4.PNG)
+
+
+PC 1 ke PC 5 
+
+![gambar](asset/pc1kepc5.PNG)
+
+
+PC 1 ke PC 6 
+
+![gambar](asset/pc1kepc6.PNG)
+
+
+PC 2 ke PC 3 
+
+![gambar](asset/pc2kepc3.PNG)
+
+
+PC 2 ke PC 4 
+
+![gambar](asset/pc2kepc4.PNG)
+
+
+PC 2 ke PC 5 
+
+![gambar](asset/pc2kepc5.PNG)
+
+
+PC 2 ke PC 6 
+
+![gambar](asset/pc2kepc6.PNG)
+
+
+PC 3 ke PC 4 
+
+![gambar](asset/pc3kepc4.PNG)
+
+
+PC 3 ke PC 5 
+
+![gambar](asset/pc3kepc5.PNG)
+
+
+PC 3 ke PC 6 
+
+![gambar](asset/pc3kepc6.PNG)
+
+
+PC 4 ke PC 5 
+
+![gambar](asset/pc4kepc5.PNG)
+
+
+PC 4 ke PC 6 
+
+![gambar](asset/pc4kepc6.PNG)
+
+
+PC 5 ke PC 6 
+
+![gambar](asset/pc5kepc6.PNG)
+
+
+
+
+
+
