@@ -1,5 +1,5 @@
-    Nama            : Rizal Maulana
-    NRP             : 3122600004
+    Nama            : Ezra Septian Handyanto
+    NRP             : 3122600016
     Kelas           : 2 D4 IT A
 
 ## TRACE PING
@@ -30,7 +30,7 @@ Setelah selesai melakukan konfigurasi, selanjutnya adalah melakukan Ping test.
 **1. Ping 192.168.1.2 -> 192.168.1.3 (Broadcast)**
 
 <div align="center">
-<img src="./assets/ping1.JPG">
+<img src="./assets/ping1.">
 <p><strong>Gambar :</strong> Ping 1</p>
 </div>
 
