@@ -7,7 +7,7 @@
 ### A. KONFIGURASI 1 ROUTER, 2 SWITCH & 4 PC
 
 <div align="center">
-<img src="./assets/topologi-jaringan.png">
+<img src="asset/topologi-jaringan.png">
 <p><strong>Gambar :</strong> konfigurasi jaringan</p>
 </div>
 
@@ -30,7 +30,7 @@ Setelah selesai melakukan konfigurasi, selanjutnya adalah melakukan Ping test.
 **1. Ping 192.168.1.2 -> 192.168.1.3 (Broadcast)**
 
 <div align="center">
-<img src="./assets/ping1.">
+<img src="asset/ping1.JPG">
 <p><strong>Gambar :</strong> Ping 1</p>
 </div>
 
@@ -39,14 +39,14 @@ Ketika perintah ping pertama kali dijalankan, maka akan terjadi broadcast dimana
 **2. Ping 192.168.1.2 -> 192.168.1.3**
 
 <div align="center">
-<img src="./assets/ping2.JPG">
+<img src="asset/ping2.JPG">
 <p><strong>Gambar :</strong> Ping 2</p>
 </div>
 
 Prosesnya sama saja dengan yang pertama, hanya saja pada ping ke 2 ke address yang sama, jika kita gunakan switch maka tidak akan ada proses broadcast kembali karena MAC sudah tersimpan sehingga memungkinkan mengirim packets kembali tanpa dijalankan broadcast.
 
 <div align="center">
-<img src="./assets/arp-a-firstPing.JPG">
+<img src="asset/arp-a-firstPing.JPG">
 <p><strong>Gambar :</strong> perintah arp</p>
 </div>
 
@@ -55,7 +55,7 @@ Prosesnya sama saja dengan yang pertama, hanya saja pada ping ke 2 ke address ya
 **3. Ping 192.168.1.2 -> 192.168.6.2 (Broadcast)**
 
 <div align="center">
-<img src="./assets/ping3.JPG">
+<img src="asset/ping3.JPG">
 <p><strong>Gambar :</strong> Ping 3</p>
 </div>
 
@@ -65,14 +65,14 @@ Pada gambar diatas terjadi Request Time Out (RTO) sebanyak satu kali, hal terseb
 **4. Ping 192.168.1.2 -> 192.168.6.3**
 
 <div align="center">
-<img src="./assets/ping4.JPG">
+<img src="asset/ping4.JPG">
 <p><strong>Gambar :</strong> Ping 4</p>
 </div>
 
 Prosesnya sama saja dengan yang ketiga, hanya saja pada ping ke 2 ke address yang sama, jika kita gunakan switch maka tidak akan ada proses broadcast kembali karena MAC sudah tersimpan sehingga memungkinkan mengirim packets kembali tanpa dijalankan broadcast.**_(Tidak terjadi RTO karena address tujuan sudah dikenali)_**
 
 <div align="center">
-<img src="./assets/topologi-jaringan-hub.png">
+<img src="asset/topologi-jaringan-hub.png">
 <p><strong>Gambar :</strong> Pengggunaan PT-Hub</p>
 </div>
 
@@ -81,7 +81,7 @@ Prosesnya sama saja dengan yang ketiga, hanya saja pada ping ke 2 ke address yan
 Selanjutnya akan dilakukan percobaan dengan mengganti Switch dengan PT-Hub.
 
 <div align="center">
-<img src="./assets/ping1-pthub.JPG">
+<img src="asset/ping1-pthub.JPG">
 <p><strong>Gambar :</strong> Ping 5</p>
 </div>
 
