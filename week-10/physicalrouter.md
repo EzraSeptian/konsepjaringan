@@ -7,25 +7,25 @@ tersebut juga berfungsi sebagai switch yang menghubungkan router ke pc lab diman
 
 ## Configurasi pada mikrotik
 
-1. Koneksi
+### 1. Koneksi
 
 ![gambar](asset/01.png)
 
-2. Tambah Bridge & Port (ether 2-9)
+### 2. Tambah Bridge & Port (ether 2-9)
 
 ![gambar](asset/bridge.png)
 
 ![gambar](asset/ether1-9.png)
 
-3. Tambah dan config address
+### 3. Tambah dan config address
 
-![gambar](asset/address(kepc).png)
+![gambar](asset/adress(kepc).png)
 
-![gambar](asset/address(kerouter).png)
+![gambar](asset/adress(kerouter).png)
 
 ![gambar](asset/adresslist.png)
 
-4. Tambah Route
+### 4. Tambah Route
 
 ![gambar](asset/setrouteatas.png)
 
@@ -48,6 +48,12 @@ tersebut juga berfungsi sebagai switch yang menghubungkan router ke pc lab diman
 ![gambar](asset/setroute9.png)
 
 ![gambar](asset/setroute10.png)
+
+![gambar](asset/routelist1.png)
+
+![gambar](asset/routelist2.png)
+
+![gambar](asset/iprouteprint.png)
 
 6. Uji Ping (Antar PC dalam 1 Router)
 
