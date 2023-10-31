@@ -70,3 +70,32 @@ Static Route:
     192.168.10.64/26 via 192.168.3.241
     192.168.40.64/26 via 192.168.3.241
 
+
+
+# Uji Ping
+
+
+PC 0 Ke PC 1
+
+![gambar](asset/pc0-pc1.PNG)
+
+PC 0 Ke PC 2
+
+![gambar](asset/pc0-pc2.PNG)
+
+PC 0 Ke PC 3
+
+![gambar](asset/pc0-pc3.PNG)
+
+PC 1 Ke PC 2
+
+![gambar](asset/pc1-pc2.PNG)
+
+PC 1 Ke PC 3
+
+![gambar](asset/pc1-pc3.PNG)
+
+PC 2 Ke PC 3
+
+![gambar](asset/pc2-pc3.PNG)
+
