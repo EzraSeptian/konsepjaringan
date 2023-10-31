@@ -55,7 +55,20 @@ tersebut juga berfungsi sebagai switch yang menghubungkan router ke pc lab diman
 
 ![gambar](asset/iprouteprint.png)
 
-6. Uji Ping (Antar PC dalam 1 Router)
+6. Uji Ping (Antar PC dengan IP 192.168.3.2 dalam 1 Router)
 
+Ping ke PC dengan IP 192.168.3.3
+
+![gambar](asset/pingke3.png)
+
+Ping ke PC dengan IP 192.168.3.4
+
+![gambar](asset/pingke4.png)
+
+Ping ke Router dengan Gateway 192.168.3.1
+
+![gambar](asset/pingkerouter.png)
 
 7. Uji Ping (Ping ke router lain dalam 10.252.108.0/24)
+
+![gambar](asset/pingantarrouter.png)
