@@ -1,6 +1,6 @@
 # Physical Router
 
-![gambar](asset/ciscophysical.PNG)
+![gambar](asset/ciscophysical1.PNG)
 
 Pada laporan ini, kita melakukan praktikum secara langsung menggunakan bentuk fisik dari router dan melakukan configurasi langsung ke router dimana router
 tersebut juga berfungsi sebagai switch yang menghubungkan router ke pc lab dimana kelompok kita mendapat IP antar router yaitu 10.252.108.13/24 dan network ke pc 192.168.3.0/24.
