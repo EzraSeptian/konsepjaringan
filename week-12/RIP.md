@@ -39,8 +39,8 @@ Secara ringkas, trace routes dapat berbeda karena sifat dinamis internet, kondis
 
 Pada trace route pertama (203.190.242.211), mari kita lihat setiap hop:
 
-    Hop 1 (_gateway - 192.168.3.1): Ini adalah router gateway lokal pada jaringan Anda (router rumah atau kantor).
-    Hop 2 (10.252.108.212): Ini mungkin adalah router atau perangkat jaringan di dalam jaringan lokal Anda.
+    Hop 1 (_gateway - 192.168.3.1): Ini adalah router gateway lokal pada jaringan kita (router rumah atau kantor).
+    Hop 2 (10.252.108.212): Ini mungkin adalah router atau perangkat jaringan di dalam jaringan lokal kia.
     Hop 3 (241.56.pens.ac.id - 103.24.56.241): Ini adalah node di jaringan Institut Teknologi Sepuluh Nopember (PENS) dengan alamat IP 103.24.56.241.
     Hop 4 (core-router.pens.ac.id - 202.9.85.1): Ini mungkin adalah router inti di jaringan PENS.
     Hop 5 (edge-router.pens.ac.id - 10.252.0.1): Kemungkinan besar ini adalah router tepi (edge router) di jaringan PENS.
