@@ -30,7 +30,23 @@ Secara ringkas, trace routes dapat berbeda karena sifat dinamis internet, kondis
 
 
 ## Trace Route detik.com
-![gambar](asset/traceroutedetik.com)
+![gambar](asset/traceroutedetik.png)
 
-![gambar](asset/traceroutedetik(2).com)
+![gambar](asset/traceroutedetik(2).png)
 
+
+### Penjelasan
+
+Pada trace route pertama (203.190.242.211), mari kita lihat setiap hop:
+
+    Hop 1 (_gateway - 192.168.3.1): Ini adalah router gateway lokal pada jaringan Anda (router rumah atau kantor).
+    Hop 2 (10.252.108.212): Ini mungkin adalah router atau perangkat jaringan di dalam jaringan lokal Anda.
+    Hop 3 (241.56.pens.ac.id - 103.24.56.241): Ini adalah node di jaringan Institut Teknologi Sepuluh Nopember (PENS) dengan alamat IP 103.24.56.241.
+    Hop 4 (core-router.pens.ac.id - 202.9.85.1): Ini mungkin adalah router inti di jaringan PENS.
+    Hop 5 (edge-router.pens.ac.id - 10.252.0.1): Kemungkinan besar ini adalah router tepi (edge router) di jaringan PENS.
+    Hop 6 (124-195-39-3.resources.indosat.com - 124.195.39.3): Node ini mungkin terletak di jaringan penyedia layanan internet (ISP) Indosat.
+    Hop 7: Tidak ada respons (* * *). Ini mungkin disebabkan oleh aturan firewall atau konfigurasi yang tidak mengizinkan respon ICMP dari node tertentu.
+    Hop 8 (218.100.36.9): Node ini mungkin adalah bagian dari jaringan Indosat.
+    Hop 9 (s2-211-242.190.203.detik.com - 203.190.242.211): Ini adalah server detik.com dengan alamat IP 203.190.242.211.
+
+Sekarang, mengenai perbedaan pada trace route yang pertama dan yang kedua, perbedaan tersebut terjadi pada hop 6 (124-195-39-3.resources.indosat.com). Pada trace route pertama, ada tiga kali percobaan, tetapi hanya satu yang memberikan respons. Pada trace route kedua, semua tiga percobaan memberikan respons. Hal ini bisa disebabkan oleh fluktuasi jaringan yang normal, lalu lintas yang berubah-ubah, atau aturan firewall yang mengizinkan respons ICMP pada percobaan kedua. Hal ini adalah sesuatu yang umum terjadi di Internet, dan fluktuasi semacam ini adalah hal yang normal.
