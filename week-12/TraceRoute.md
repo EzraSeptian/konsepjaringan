@@ -50,3 +50,20 @@ Pada trace route pertama (203.190.242.211), mari kita lihat setiap hop:
     Hop 9 (s2-211-242.190.203.detik.com - 203.190.242.211): Ini adalah server detik.com dengan alamat IP 203.190.242.211.
 
 Sekarang, mengenai perbedaan pada trace route yang pertama dan yang kedua, perbedaan tersebut terjadi pada hop 6 (124-195-39-3.resources.indosat.com). Pada trace route pertama, ada tiga kali percobaan, tetapi hanya satu yang memberikan respons. Pada trace route kedua, semua tiga percobaan memberikan respons. Hal ini bisa disebabkan oleh fluktuasi jaringan yang normal, lalu lintas yang berubah-ubah, atau aturan firewall yang mengizinkan respons ICMP pada percobaan kedua. Hal ini adalah sesuatu yang umum terjadi di Internet, dan fluktuasi semacam ini adalah hal yang normal.
+
+## Route print
+
+![gambar](asset/routeprint.png)
+
+
+## Route List
+
+![gambar](asset/routelist.png)
+
+## RIP Network
+
+![gambar](asset/RIP.png)
+
+## RIP Interfaces
+
+![gambar](asset/RIP_interface.png)
