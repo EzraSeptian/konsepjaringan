@@ -109,6 +109,6 @@ PC 2 Ke PC 3
 
 ## Physical & Logical
 
-![gambar](physical.png)
+![gambar](physical1.png)
 
 ![gambar](logical.png)
