@@ -107,3 +107,8 @@ PC 2 Ke PC 3
 
 ![gambar](asset/pc2-pc3.PNG)
 
+## Physical & Logical
+
+![gambar](physical.png)
+
+![gambar](logical.png)
