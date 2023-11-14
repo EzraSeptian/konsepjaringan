@@ -1,7 +1,7 @@
 # Physical dan Logical Miro Mikrotik
 
-<Img src="assets/physical.png">
-<Img src="assets/logical.png">
+<Img src="physical1.png">
+<Img src="logical.png">
 
 Konfigurasi router dan pc :
 
